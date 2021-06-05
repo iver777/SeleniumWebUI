@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Enter {
 
-    public static void text(WebDriver webDriver, By locator, String text){
+    public static void text(WebDriver webDriver, By locator, String text) {
         webDriver.findElement(locator).sendKeys(text);
+    }
 }

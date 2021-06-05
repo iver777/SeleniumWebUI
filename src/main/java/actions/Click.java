@@ -5,7 +5,8 @@ import org.openqa.selenium.WebDriver;
 
 public class Click {
 
-    public static void on (WebDriver webDriver, By locator){
+    public static void on (WebDriver webDriver, By locator) {
         webDriver.findElement(locator).click();
+    }
 
 }
